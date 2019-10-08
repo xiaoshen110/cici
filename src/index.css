@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* .show{ opacity: 1; transition: all 1.5s ease-in;}
+.hide{ opacity: 0; transition: all 1.5s ease-in;} */
+
+/* .show{ animation: show-item 1s ease-in forwards;}
+.hide{ animation: hide-item 1s ease-in forwards;}
+
+@keyframes show-item {
+  0% {
+    opacity: 0;
+    color: aqua;
+  }
+  50% {
+    opacity: .5;
+    color: aquamarine;
+  }
+  100% {
+    opacity: 1;
+    color: red;
+  }
+}
+
+@keyframes hide-item {
+  0% {
+    opacity: 1;
+    color: aqua;
+  }
+  50% {
+    opacity: .5;
+    color: aquamarine;
+  }
+  100% {
+    opacity: 0;
+    color: red;
+  }
+} */
+
+.boss-text-enter{ opacity: 0; }
+.boss-text-enter-active{ opacity: 1; transition: opacity 2s; }
+.boss-text-enter-done{ opacity: 1;}
+
+.boss-text-exit{ opacity: 1; }
+.boss-text-exit-active{ opacity: 0; transition: opacity 2s;}
+.boss-text-exit-done{ opacity: 0;}
